@@ -6,6 +6,26 @@ html{
     justify-content: center;
     height: 100vh;
 }
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px; /* Adjust spacing between text and icon */
+}
+
+
+
+
+
+
+
+.body{
+    background-color: #212121;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
 .name h1, .location h4 {
     margin: 0;
     padding: 0;
@@ -37,42 +57,44 @@ p{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    text-align: center;
 }
+
 .cta{
     background-color: #333;
-    color: #fff;
+    color: #fff; 
+    display: inline-flex;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
     text-decoration: none;
     border-radius: 10px;
     font-size: 13pt;
 }
+
 .cta:hover {
     background-color: yellowgreen;
     color: black;
     font-size: 15pt;
     font-style: italic;
 }
-.body{
-    background-color: #212121;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-}
+
     
 
 
 }
 .attribution 
 { 
+    color: white; 
     font-size: 11px; text-align: center; 
     text-decoration: none;
 }
 .attribution a 
 { 
-    color: hsl(228, 45%, 44%); 
+
+    color: white; 
     text-decoration: none;
 }
